@@ -1,0 +1,93 @@
+.right{
+    background-color: rgb(24, 24, 24);
+    width: 85%;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 8px;
+}
+.search{
+    border: 1px solid rgb(93, 11, 98);
+    /* padding: 6px; */
+    width: 500px;
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 100px;
+}
+.aa{
+    border: 1px solid gray;
+    color: gray;
+    width: 200px;
+}
+.bb{
+    border: 2px solid blue;
+}
+.cc{
+    border: 2px solid purple;
+}
+.search img{
+    vertical-align: middle;
+}
+.right_icons{
+    display: flex;
+    padding: 5px 8px;
+}
+.right_icons img{
+    vertical-align: middle;
+    padding: 3px 10px;
+}
+.top2{
+    display: flex;
+    padding: 6px;
+    border-bottom: 1px solid gray;
+}
+#all{
+    background-color: white;
+    color: black;
+}
+.top2 span{
+    border-radius: 20px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    padding: 6px 10px;
+    margin: 0 10px;
+}
+.middle{
+    /* border: 2px solid gold; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.details{
+    /* border: 2px solid aqua; */
+    width: 280px;
+    margin: 10px 17px;
+}
+.info{
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+}
+#thumbnail_image{
+    width: 280px;
+}
+#icon_image{
+    width: 30px;
+    vertical-align: middle;
+    padding-right: 5px;
+    /* border: 2px solid red; */
+}
+#verified_image{
+    width: 15px;
+    vertical-align: middle;
+}
+#title_text{
+    font-weight: bold;
+    color: white;
+}
+#small_text{
+    color: gray;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
